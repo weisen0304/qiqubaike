@@ -14,6 +14,17 @@
 ## 移动端演示
 扫二维码在手机上查看效果更好
 
+## 项目运行
+
+      git clone https://github.com/1205403102/qiqubaike.git
+      
+      cd qiqubaike
+      
+      npm install
+      
+      npm run dev
+
+
 ## 组件
 
 >首页路由-精彩页面
@@ -181,23 +192,3 @@ vue利用自己的脚手架构建工具vue-cli，再利用IDE编辑使用起来�
           │  
           └─css
                   reset.css
-            
-
- 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
