@@ -58,129 +58,129 @@ vue利用自己的脚手架构建工具vue-cli，再利用IDE编辑使用起来�
 
 ## 目录结构
 
->├─.idea
->├─build
->│      build.js
->│      check-versions.js
->│      dev-client.js
->│      dev-server.js
->│      utils.js
->│      vue-loader.conf.js
->│      webpack.base.conf.js
->│      webpack.dev.conf.js
->│      webpack.prod.conf.js
->├─node_modules
->│  │  
->│  ├─.bin
->├─src
->│  │  App.vue
->│  │  main.js
->│  │  
->│  ├─assets
->│  │      logo.png
->│  │      
->│  ├─common
->│  │  ├─css
->│  │  │      common.css
->│  │  │      
->│  │  ├─img
->│  │  │      add_1@2x.png
->│  │  │      anonymous.png
->│  │  │      back.png
->│  │  │      bj.png
->│  │  │      default-avatar.png
->│  │  │      detailBg1.png
->│  │  │      entry.png
->│  │  │      error.png
->│  │  │      icon.png
->│  │  │      loading.gif
->│  │  │      prof-sprite-2.png
->│  │  │      share.png
->│  │  │      top-icon.png
->│  │  │      user_1@2x.png
->│  │  │      
->│  │  └─less
->│  │          basic.less
->│  │          index.less
->│  │          mixin.less
->│  │          
->│  ├─components
->│  │  │  NotFound404.vue
->│  │  │  
->│  │  ├─banner
->│  │  │      banner.vue
->│  │  │      
->│  │  ├─column
->│  │  │      Column.vue
->│  │  │      
->│  │  ├─detail
->│  │  │      Detail.vue
->│  │  │      
->│  │  ├─find
->│  │  │      Find.vue
->│  │  │      
->│  │  ├─index
->│  │  │      banner.vue
->│  │  │      Header.vue
->│  │  │      Index.vue
->│  │  │      Nav.vue
->│  │  │      Plus.vue
->│  │  │      scroller-pull.vue
->│  │  │      wrap.vue
->│  │  │      
->│  │  ├─joke
->│  │  │      Joke.vue
->│  │  │      
->│  │  ├─loading
->│  │  │      Loading.vue
->│  │  │      
->│  │  ├─login
->│  │  │      Login.vue
->│  │  │      Login2.vue
->│  │  │      
->│  │  ├─selection
->│  │  │      Selection.vue
->│  │  │      
->│  │  └─video
->│  │          player.vue
->│  │          playVideo.vue
->│  │          Video.vue
->│  │          
->│  ├─router
->│  │      header.js
->│  │      index.js
->│  │      
->│  └─store
->│      │  actions.js
->│      │  eventBus.js
->│      │  get.js
->│      │  index.js
->│      │  mutation-types.js
->│      │  mutations.js
->│      │  store.js
->│      │  
->│      ├─modules
->│      │      header.js
->│      │      selection.js
->│      │      
->│      └─video
->│              mutations.js
->└─static
->    │  .gitkeep
->    │  animate.min.css
->    │  error.png
->    │  idangerous.swiper.scrollbar-2.4.1.css
->    │  idangerous.swiper.scrollbar-2.4.1.min.js
->    │  idangerous.swiper2.7.6.css
->    │  idangerous.swiper2.7.6.js
->    │  jquery-1.10.1.min.js
->    │  loading.gif
->    │  swiper-3.4.2.min.css
->    │  swiper-3.4.2.min.js
->    │  zepto.min.js
->    │  
->    └─css
->            reset.css
+\<br>├─.idea                                        
+\<br>├─build
+\<br>│      build.js
+\<br>│      check-versions.js
+\<br>│      dev-client.js
+\<br>│      dev-server.js
+\<br>│      utils.js
+\<br>│      vue-loader.conf.js
+\<br>│      webpack.base.conf.js
+\<br>│      webpack.dev.conf.js
+\<br>│      webpack.prod.conf.js
+\<br>├─node_modules
+\<br>│  │  
+\<br>│  ├─.bin
+\<br>├─src
+\<br>│  │  App.vue
+\<br>│  │  main.js
+\<br>│  │  
+\<br>│  ├─assets
+\<br>│  │      logo.png
+\<br>│  │      
+\<br>│  ├─common
+\<br>│  │  ├─css
+\<br>│  │  │      common.css
+\<br>│  │  │      
+\<br>│  │  ├─img
+\<br>│  │  │      add_1@2x.png
+\<br>│  │  │      anonymous.png
+\<br>│  │  │      back.png
+\<br>│  │  │      bj.png
+\<br>│  │  │      default-avatar.png
+\<br>│  │  │      detailBg1.png
+\<br>│  │  │      entry.png
+\<br>│  │  │      error.png
+\<br>│  │  │      icon.png
+\<br>│  │  │      loading.gif
+\<br>│  │  │      prof-sprite-2.png
+\<br>│  │  │      share.png
+\<br>│  │  │      top-icon.png
+\<br>│  │  │      user_1@2x.png
+\<br>│  │  │      
+\<br>│  │  └─less
+\<br>│  │          basic.less
+\<br>│  │          index.less
+\<br>│  │          mixin.less
+\<br>│  │          
+\<br>│  ├─components
+\<br>│  │  │  NotFound404.vue
+\<br>│  │  │  
+\<br>│  │  ├─banner
+\<br>│  │  │      banner.vue
+\<br>│  │  │      
+\<br>│  │  ├─column
+\<br>│  │  │      Column.vue
+\<br>│  │  │      
+\<br>│  │  ├─detail
+\<br>│  │  │      Detail.vue
+\<br>│  │  │      
+\<br>│  │  ├─find
+\<br>│  │  │      Find.vue
+\<br>│  │  │      
+\<br>│  │  ├─index
+\<br>│  │  │      banner.vue
+\<br>│  │  │      Header.vue
+\<br>│  │  │      Index.vue
+\<br>│  │  │      Nav.vue
+\<br>│  │  │      Plus.vue
+\<br>│  │  │      scroller-pull.vue
+\<br>│  │  │      wrap.vue
+\<br>│  │  │      
+\<br>│  │  ├─joke
+\<br>│  │  │      Joke.vue
+\<br>│  │  │      
+\<br>│  │  ├─loading
+\<br>│  │  │      Loading.vue
+\<br>│  │  │      
+\<br>│  │  ├─login
+\<br>│  │  │      Login.vue
+\<br>│  │  │      Login2.vue
+\<br>│  │  │      
+\<br>│  │  ├─selection
+\<br>│  │  │      Selection.vue
+\<br>│  │  │      
+\<br>│  │  └─video
+\<br>│  │          player.vue
+\<br>│  │          playVideo.vue
+\<br>│  │          Video.vue
+\<br>│  │          
+\<br>│  ├─router
+\<br>│  │      header.js
+\<br>│  │      index.js
+\<br>│  │      
+\<br>│  └─store
+\<br>│      │  actions.js
+\<br>│      │  eventBus.js
+\<br>│      │  get.js
+\<br>│      │  index.js
+\<br>│      │  mutation-types.js
+\<br>│      │  mutations.js
+\<br>│      │  store.js
+\<br>│      │  
+\<br>│      ├─modules
+\<br>│      │      header.js
+\<br>│      │      selection.js
+\<br>│      │      
+\<br>│      └─video
+\<br>│              mutations.js
+\<br>└─static
+\<br>    │  .gitkeep
+\<br>    │  animate.min.css
+\<br>    │  error.png
+\<br>    │  idangerous.swiper.scrollbar-2.4.1.css
+\<br>    │  idangerous.swiper.scrollbar-2.4.1.min.js
+\<br>    │  idangerous.swiper2.7.6.css
+\<br>    │  idangerous.swiper2.7.6.js
+\<br>    │  jquery-1.10.1.min.js
+\<br>    │  loading.gif
+\<br>    │  swiper-3.4.2.min.css
+\<br>    │  swiper-3.4.2.min.js
+\<br>    │  zepto.min.js
+\<br>    │  
+\<br>    └─css
+\<br>            reset.css
             
 
  
