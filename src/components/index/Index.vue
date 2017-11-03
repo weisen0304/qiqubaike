@@ -22,6 +22,7 @@
       <transition name="fade">
         <div class="nav" ref="headWrapper">
           <ul class="nav-ul">
+            <!--<mt-badge type="error">3</mt-badge>-->
             <li class="nav-item">
               <router-link to="/Selection">精选</router-link>
             </li>
@@ -32,7 +33,7 @@
               <router-link to="/Joke">段子</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/Find">发现</router-link>
+              <router-link to="/Find">发现<span class="badge"></span></router-link>
             </li>
             <li class="nav-item">
               <router-link to="/Column">奇趣专栏</router-link>
@@ -373,6 +374,16 @@
         flex: 1;
         line-height: 40px;
         font-size: 16px;
+        .badge {
+          width: 6px;
+          height: 6px;
+          background: red;
+          border: 1px solid #fff;
+          border-radius: 50%;
+          position: absolute;
+          right: 2px;
+          top: 8px;
+        }
         & > a {
           display: block;
           color: #0f0f0f;
