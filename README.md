@@ -9,11 +9,11 @@
 >奇趣百科是一款以搞笑，图片，视频为内容深受年轻人一族喜爱的webAPP
 
 ## 演示
-在线演示待定(请使用chrome开发者手机演示模式预览)
-![](https://github.com/1205403102/qiqubaike/blob/master/imgCh/home.gif)
-![](https://github.com/1205403102/qiqubaike/blob/master/imgCh/content.gif)
-![](https://github.com/1205403102/qiqubaike/blob/master/imgCh/video.gif)
-![](https://github.com/1205403102/qiqubaike/blob/master/imgCh/login.gif)
+>在线演示待定(请使用chrome开发者手机演示模式预览)
+      ![](https://github.com/1205403102/qiqubaike/blob/master/imgCh/home.gif)
+      ![](https://github.com/1205403102/qiqubaike/blob/master/imgCh/content.gif)<br>
+      ![](https://github.com/1205403102/qiqubaike/blob/master/imgCh/video.gif)
+      ![](https://github.com/1205403102/qiqubaike/blob/master/imgCh/login.gif)
 
 ## 移动端演示
 扫二维码在手机上查看效果更好
