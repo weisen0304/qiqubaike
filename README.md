@@ -10,9 +10,9 @@
 
 ## 演示
 在线演示待定(请使用chrome开发者手机演示模式预览)<br><br><br>
-                  ![](https://github.com/1205403102/qiqubaike/blob/master/imgCh/home.gif)-------
+                  ![](https://github.com/1205403102/qiqubaike/blob/master/imgCh/home.gif)--------------
       ![](https://github.com/1205403102/qiqubaike/blob/master/imgCh/content.gif)<br><br><br>
-                  ![](https://github.com/1205403102/qiqubaike/blob/master/imgCh/video.gif)-------
+                  ![](https://github.com/1205403102/qiqubaike/blob/master/imgCh/video.gif)--------------
       ![](https://github.com/1205403102/qiqubaike/blob/master/imgCh/login.gif)
 
 ## 移动端演示
